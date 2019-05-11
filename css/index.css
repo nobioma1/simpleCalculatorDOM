@@ -135,4 +135,64 @@ html {
 html,
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: aliceblue;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header h1 {
+  font-size: 6rem;
+  text-align: center;
+  padding: 5%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.calculator-container {
+  border: 1px solid lightgray;
+  width: 450px;
+  max-width: 450px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.calculator-container .screen {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: cornsilk;
+}
+.calculator-container .screen .primary-display {
+  font-size: 4rem;
+}
+.calculator-container .screen .secondary-display {
+  font-size: 2rem;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.buttons .top-btn {
+  width: 50%;
+}
+.buttons .top-btn:hover {
+  color: white;
+  background-color: lightcoral;
+}
+.buttons button {
+  width: calc(100%/4);
+  font-size: 2rem;
+  padding: 5%;
+}
+.buttons button:hover {
+  color: white;
+  background-color: cornflowerblue;
 }
