@@ -191,6 +191,7 @@ header h1 {
   width: calc(100%/4);
   font-size: 2rem;
   padding: 5%;
+  transition: 0.5s ease-in-out;
 }
 .buttons button:hover {
   color: white;
