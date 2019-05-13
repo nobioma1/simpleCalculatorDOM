@@ -1,1 +1,1 @@
-## Simple Calulator Manipulating the DOM
+## Simple Calculator Manipulating the DOM
